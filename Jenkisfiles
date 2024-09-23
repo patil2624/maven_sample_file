@@ -25,10 +25,10 @@ pipeline
 		{
 			steps{
 				sh '''
-					java -jar *.jar 
+					java -jar java-project2-1.1-SNAPSHOT.jar 
 				'''
 			}
-		}
+	}
 	}
 }
 
