@@ -24,10 +24,7 @@ pipeline
 		stage ("excuting")
 		{
 			steps{
-				sh '''
-					chmod 777 java-project2-1.1-SNAPSHOT.jar
-					java -jar java-project2-1.1-SNAPSHOT.jar 
-				'''
+				sh '' java -jar target/java-project2-1.1-SNAPSHOT.jar"
 			}
 	}
 	}
