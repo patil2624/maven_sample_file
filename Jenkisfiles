@@ -1,0 +1,26 @@
+pipeline
+{
+	agent any
+
+	stages {
+		stage("validetion")
+		{
+			steps {
+				bat '''
+					mvn validet
+					echo "validetion is complite"
+				'''
+				}
+		}
+		stage ("bulide")
+		{
+			steps {
+				bat '''
+					mvn clean package 
+					echo "package is bulide"
+				'''
+				}
+		}
+	}
+}
+
