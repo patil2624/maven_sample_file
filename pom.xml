@@ -45,6 +45,7 @@
                 </configuration>
             </plugin>
 
+                 
             <!-- Maven Compiler Plugin configuration -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
