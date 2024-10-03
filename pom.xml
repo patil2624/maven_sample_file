@@ -19,7 +19,6 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
          
     <!-- Project properties -->
     <properties>
